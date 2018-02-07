@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<canvas id="myCanvas" width="600" height="600" style="border:20px solid #33fff6;" >
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+
+ctx.beginPath();
+ctx.rect(190, 20, 200, 600);
+ctx.fillStyle = "#A9721D";
+ctx.fill();
+
+
+
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var centerX = canvas.width / 2;
+var centerY = canvas.height / 17;
+var radius = 290;
+
+context.beginPath();
+context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+context.fillStyle = 'green';
+context.fill();
+context.lineWidth = 10;
+context.strokeStyle = '#4EAD10';
+context.stroke();
+   
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(200,200);
+ctx.lineTo(200,50);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(300,50);
+ctx.lineTo(195,50);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(300,200);
+ctx.lineTo(195,200);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(300,205);
+ctx.lineTo(300,120);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(305,120);
+ctx.lineTo(239,120);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(370,125);
+ctx.lineTo(370,50);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(365,125);
+ctx.lineTo(450,125);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(365,50);
+ctx.lineTo(450,50);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(445,125);
+ctx.lineTo(445,200);
+ctx.stroke();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(365,200);
+ctx.lineTo(450,200);
+ctx.stroke();
+</script> 
+
+
+</body>
+
+
+</html>
